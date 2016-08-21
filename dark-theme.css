@@ -21,16 +21,14 @@ body {
 }
 
 .simple-print {
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
+	fill: white;
+	stroke: white;
+}
+.simple-print svg {
+	height: 100%;
 }
 
 .simple-close {
-	color: #666;
-	border-color: #666;
-}
-
-.simple-close:hover {
 	color: white;
 	border-color: white;
 }
