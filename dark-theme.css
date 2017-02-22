@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Arial';
 
 * {
 	-webkit-box-sizing: border-box;
@@ -6,15 +6,15 @@
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arial', sans-serif;
 	line-height: 1.75em;
-	font-size: 16px;
-	background-color: #222;
-	color: #aaa;
+	font-size: 17px;
+	background-color: #4d4d4d;
+	color: #e6e6e6;
 }
 
 .simple-container {
-	max-width: 675px;
+	max-width: 850px;
 	margin: 0 auto;
 	padding-top: 70px;
 	padding-bottom: 20px;
@@ -38,7 +38,7 @@ body {
 }
 
 p {
-	font-size: 16px;
+	font-size: 17px;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 27px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -69,11 +69,11 @@ hr {
 }
 
 a[href] {
-	color: #1e8ad6;
+	color: #ffb3b3;
 }
 
 a[href]:hover {
-	color: #3ba0e6;
+	color: #ff3333;
 }
 
 img {
